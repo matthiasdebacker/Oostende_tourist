@@ -1,0 +1,16 @@
+@import "compass/css3";
+// SASS COLOR PROFILES
+
+$blue : #74cee2;
+$green : #d8da17;
+$yellow : #fdb813;
+$pink : #f1678d;
+
+body.fade-to-pink {
+  background-color: $pink;
+  @include transition(background-color 1s);
+}
+body.fade-to-green {
+  background-color: $green;
+  @include transition(background-color 1s);
+}

@@ -1,0 +1,17 @@
+/* line 9, ../sass/animations.scss */
+body.fade-to-pink {
+  background-color: #f1678d;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+/* line 13, ../sass/animations.scss */
+body.fade-to-green {
+  background-color: #d8da17;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
